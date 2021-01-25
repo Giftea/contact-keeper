@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://Giftea:Eleojo2020@contactkeeper.ulvgb.mongodb.net/<dbname>?retryWrites=true&w=majority"
+   , "jwtSecret": "secret"
+
+}
