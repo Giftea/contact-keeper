@@ -56,7 +56,7 @@ router.post(
       };
       jwt.sign(
         payload,
-        config.get("jwtsecret"),
+        config.get("jwtSecret"),
         {
           expiresIn: 360000,
         },
@@ -67,7 +67,7 @@ router.post(
       );
     } catch (error) {
       console.error(error.message);
-      res.status(500).send("SErver Error");
+      res.status(500).send("Server Error");
     }
   }
 );
